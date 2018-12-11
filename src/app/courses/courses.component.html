@@ -1,0 +1,9 @@
+<h1>
+  Posts
+</h1>
+<label for="fname"> Add post</label>
+<input type="text" class="form-control" #course (keyup.enter)="postCourse(course)">
+<div class="courseList" *ngFor="let course of courseList">
+  {{course.title}}
+  <button (click)="deletePost(course.id)">delete</button>
+</div>

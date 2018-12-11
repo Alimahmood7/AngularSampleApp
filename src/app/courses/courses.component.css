@@ -1,0 +1,20 @@
+.courseList {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px 10px;
+    border-radius: black;
+    border-radius: 25px;
+    background: #eee;
+    width: 547px;
+    height: 30px;
+    margin: 10px 5px;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #eee;
+}
